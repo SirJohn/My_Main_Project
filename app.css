@@ -1,0 +1,170 @@
+:root{
+  --margin-bottom:50px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: #fff;
+  font-family: "Comic Neue", cursive;
+  /* box-sizing: border-box; */
+}
+body{
+  max-width: 1200px;
+  margin: auto;
+  
+}
+
+/* ===Navbar styling===== */
+header{
+  margin-bottom: var(--margin-bottom);
+  margin-top: 30px;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   
+}
+.menu ul{
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  
+}
+.menu a{
+  text-decoration: none;
+  padding: 5px 8px;
+
+  
+}
+.menu a:hover{
+  background-color: brown;
+  border-radius: 5px;
+  /* padding: 5px; */
+}
+.logo{
+  width: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+
+.btn{
+  display: flex;
+  gap: 30px;
+}
+.btn a{
+  text-decoration: none;
+  border: 1px solid;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+.btn a:hover{
+  border: 1px solid brown;
+  color: brown;
+}
+
+/* .btnn{
+display: flex;
+gap: 30px;
+}
+.btnn a{
+  text-decoration: none;
+  padding: 5px 10px;
+ 
+}
+.btnn a:hover{
+  border: 1px solid brown;
+  color: brown;
+} */
+/* ----Another section---- */
+.container1{
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+  border: 2px solid;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  gap: 30px;
+
+}
+
+.content-heading{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: brown;
+}
+.parr{
+  font-size: 18px;
+  margin-bottom: 1rem;
+  line-height:1.2;
+}
+.btbt{
+  display: flex;
+  gap: 30px;
+}
+.btbt a{
+  text-decoration: none;
+  border: 1px solid;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.btbt a:hover{
+  border: 1px solid brown;
+  color: brown;
+}
+.imgg{
+  width: 400px;
+  border-radius: 5px ;
+}
+
+/* ====Main section===== */
+.container{
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  gap: 30px;
+  justify-content: center;
+ 
+
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  gap: 25px;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 40px;
+}
+.heading{
+  font-size: 24px;
+  font-weight: 700;
+}
+.icon{
+  width: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.btnn{
+  display: flex;
+  gap: 30px;
+}
+.btnn a{
+  text-decoration: none;
+  border: 1px solid;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+.btnn a:hover{
+  border: 1px solid brown;
+  color: brown;
+}
